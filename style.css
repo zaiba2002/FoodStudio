@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer div.type div.company{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    color:black;
+    list-style-type: none;
+  }
+  footer div.type div.about{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    color:black;
+    list-style-type: none;
+  }
+  footer div.type div.support{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    color:black;
+    list-style-type: none;
+  }
+  footer{
+    height: 52vh;
+    background-color:rgb(235, 235, 232);
+  }
+  footer div.links input{
+    margin-top: 20px;
+    padding: 15px 10px;
+    width: 25%;
+    font-size: 1.2rem;
+    text-align: center;
+    border: 1px solid black;
+    border-radius:20px 15px;
+    align-items: center;
+    margin-left: 35%;
+  }
+  footer div.type{
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+  }
+  footer div.app{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  footer div.app div.links{
+    display: inline;
+    justify-content: space-evenly;
+    flex-direction: row;
+  }
+  footer hr{
+    display: block;
+    border-style: inset;
+    border-width: 1px;
+    color: black;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+ 
